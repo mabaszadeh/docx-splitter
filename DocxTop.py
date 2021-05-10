@@ -76,7 +76,6 @@ row = 4
 for file in os.listdir(FOLDER_PATH):
 
     extension = os.path.splitext(file)[1]
-    # bara ext hayi ke word mitoone baz kone
     if not (extension == ".docx" or extension == ".doc"):
         continue
 
